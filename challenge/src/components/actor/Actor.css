@@ -1,0 +1,54 @@
+.actorPanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    height: 100em;
+}
+
+.actorColumn{
+    display: flex;
+    flex-direction: column;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: black; */
+    width: 20em;
+}
+
+.actorImg{
+    width: 18em;
+    height: 25em;
+}
+
+.gender{
+    background-color: rgb(243, 184, 106);
+    width: 4.5em;
+}
+
+.actorPeliculas{
+    width: 80em;
+}
+
+.peliTitle{
+    border-bottom: 1px solid #C00;
+    font-size: 2em;
+}
+
+.movieRating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+.movieInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movieOverview{
+    padding-left: 2em;
+}

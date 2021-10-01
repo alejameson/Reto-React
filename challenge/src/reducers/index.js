@@ -1,7 +1,8 @@
-import { GET_ACTOR_NAME } from "../actions";
+import { GET_ACTOR_INFO, GET_ACTOR_NAME } from "../actions";
 
 const initialState = {
     actorName: "",
+    actorInfo: null,
 }
 
 function rootReducer (state = initialState, action){
@@ -10,6 +11,11 @@ function rootReducer (state = initialState, action){
         case GET_ACTOR_NAME:
             return {
                 actorName: action.payload,
+            }
+
+        case GET_ACTOR_INFO:
+            return {
+                actorInfo: action.payload
             }
         
         default:
