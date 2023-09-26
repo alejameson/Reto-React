@@ -1,7 +1,7 @@
 # Reto-React
 
 <p align="center">
-  <img height="200" src=".gifWeb.gif" />
+  <img height="200" src="./gifWeb.gif" />
 </p>
 
 ## Pasos para iniciar proyecto
